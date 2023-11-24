@@ -20,7 +20,7 @@ const QuestionPaperGenerator = () => {
 
     // Make a POST request to the backend
     try {
-      const response = await fetch("http://localhost:3001/generate-paper", {
+      const response = await fetch("https://question-paper-vaibhav.onrender.com/generate-paper", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
